@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report
+            id="action_report_partner_ledger"
+            model="res.partner"
+            string="Partner Ledger with origin"
+            report_type="qweb-pdf"
+            name="account_report_partner_ledger.report_partnerledger"
+            file="account_report_partner_ledger.report_partnerledger"
+            menu="False"
+        />
+
+        <report
+            id="action_report_partner_ledger_other_with_origin"
+            model="res.partner"
+            string="Partner Ledger with origin"
+            report_type="qweb-pdf"
+            name="account_report_partner_ledger.report_partnerledgerother"
+            file="account_report_partner_ledger.report_partnerledgerother"
+            menu="False"
+        />
+    </data>
+</openerp>
